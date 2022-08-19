@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="5dp"
+    tools:ignore="UseCompoundDrawables">
+
+    <ImageView
+        android:id="@+id/pdf_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/pdfs"
+
+
+        android:contentDescription="@string/todo" />
+    <TextView
+        android:id="@+id/subj_name"
+        android:layout_width="match_parent"
+        android:layout_height= "match_parent"
+        android:text="@string/cpu_scheduling"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:padding="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black">
+
+    </TextView>
+
+</LinearLayout>

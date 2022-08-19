@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">pdf downloader</string>
+    <string name="cpu_scheduling">CPU SCHEDULING</string>
+    <string name="todo">TODO</string>
+</resources>
